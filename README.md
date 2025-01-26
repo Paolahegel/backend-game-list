@@ -16,7 +16,7 @@ A proposta é disponibilizar uma API que fornece a lógica e regras de negócio 
 - **Linguagem de Programação:** Java 21
 - **Framework:** Spring Boot
 - **Banco de Dados:** H2 Console
-- **Ferramentas de Teste:** PostMan
+- **Ferramentas de Teste:** Postman
 - **Gerenciamento de Build e Dependências**: Maven
 - **Controle de Versão:** Git/GitHub
 
@@ -24,12 +24,12 @@ A proposta é disponibilizar uma API que fornece a lógica e regras de negócio 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/projeto_final_bloco_02.git
+   git clone https://github.com/seu-usuario/Projeto_Backend_GameList
    ```
 
 2. Acesse a pasta do projeto:
    ```bash
-   cd projeto_final_bloco_02
+   cd Projeto_Backend_GameList
    ```
 
 3. Configure o banco de dados no arquivo `application.properties`.
