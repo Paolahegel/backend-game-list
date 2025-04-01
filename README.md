@@ -1,42 +1,56 @@
-# Projeto Backend Lista de Jogos
-# Sobre o Projeto
-Este projeto foi desenvolvido durante a participação na semana Intensivão Java Spring organizado pelo [DevSuperior](https://devsuperior.com.br "Site da DevSuperior").
-A proposta é disponibilizar uma API que fornece a lógica e regras de negócio para um front-end (ainda não desenvolvido) com integração ao banco de dados. Consiste em um sistema de jogos onde é possível organizar a lista de jogos conforme requisição.
+# 🎮 Projeto Backend - Lista de Jogos
 
-## Funcionalidades
-- **Busca completa de jogos:** Obtém a lista de jogos com descrições completas.
-- **Busca breve de jogos:** Obtém a lista de jogos com descrições curtas.
-- **Busca por ID:** Obtém a lista com o ID e nome do jogo.
-- **Atualização de posição:** Atualiza no banco de dados a posição dos jogos na lista.
+🚀 API desenvolvida durante o **Intensivão Java Spring** promovido pela [DevSuperior](https://devsuperior.com.br "Site da DevSuperior"). O objetivo é criar um sistema de organização de jogos, permitindo listagem, busca e atualização de posições dentro da base de dados.
 
-## Modelo Conceitual
+---
+
+## 📌 Funcionalidades
+🔍 **Busca completa de jogos** → Retorna a lista de jogos com descrições detalhadas.  
+📜 **Busca breve de jogos** → Exibe a lista de jogos com descrições curtas.  
+🆔 **Busca por ID** → Retorna um jogo específico pelo seu identificador.  
+📌 **Atualização de posição** → Altera a posição dos jogos na lista.  
+
+---
+
+## 🏛️ Modelo UML
 ![Modelo de domínio DSList](https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/dslist-model.png)
 
-## Tecnologias Utilizadas
-- **Linguagem de Programação:** Java 21
-- **Framework:** Spring Boot
-- **Banco de Dados:** H2 Console
-- **Ferramentas de Teste:** Postman
-- **Gerenciamento de Build e Dependências**: Maven
-- **Controle de Versão:** Git/GitHub
+---
 
-## Como Executar o Projeto
+## 🛠️ Tecnologias Utilizadas
+☕ **Java 21** → Linguagem principal do projeto  
+🌱 **Spring Boot** → Framework para desenvolvimento backend  
+🗄️ **H2 Console** → Banco de dados em memória  
+📮 **Postman** → Ferramenta para testes de API  
+📦 **Maven** → Gerenciamento de build e dependências  
+🐙 **Git/GitHub** → Controle de versão  
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/Projeto_Backend_GameList
-   ```
+---
 
-2. Acesse a pasta do projeto:
-   ```bash
-   cd Projeto_Backend_GameList
-   ```
+## ⚙️ Como Executar o Projeto
 
-3. Configure o banco de dados no arquivo `application.properties`.
+### 1️⃣ Clone o repositório
+```bash
+git clone https://github.com/seu-usuario/Projeto_Backend_GameList.git
+```
 
-4. Execute o projeto:
-   ```bash
-   mvn spring-boot:run
-   ```
+### 2️⃣ Acesse a pasta do projeto
+```bash
+cd Projeto_Backend_GameList
+```
 
-5. Utilize o PostMan ou outra ferramenta de teste para acessar os endpoints.
+### 3️⃣ Configure o banco de dados  
+No arquivo `application.properties`, ajuste as configurações do banco de dados conforme necessário.
+
+### 4️⃣ Execute o projeto  
+```bash
+mvn spring-boot:run
+```
+
+### 5️⃣ Teste os endpoints  
+Use o **Postman** ou outra ferramenta de API para interagir com os endpoints.
+
+---
+
+# 🌍 Atualizações
+Feedbacks e sugestões são bem-vindas! Fique à vontade para contribuir e potencializar meu aprendizado 😃
